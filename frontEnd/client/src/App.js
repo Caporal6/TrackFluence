@@ -2,22 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const loginWithDiscord = () => {
+    window.location.href = 'http://localhost:3001/auth/discord/login';
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Bienvenue sur Trackfluence</h1>
+      <button onClick={loginWithDiscord}>Se connecter avec Discord</button>
     </div>
   );
 }
