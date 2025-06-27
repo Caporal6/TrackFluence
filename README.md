@@ -10,7 +10,6 @@ trackfluence/
 ├── backend/        # API Node.js avec Express
 ├── .gitignore
 ├── README.md
-└── package.json    # Pour la gestion de scripts globaux
 ```
 
 ---
@@ -51,13 +50,13 @@ Par défaut, le frontend tourne sur `http://localhost:3000`
 ### Frontend
 
 * React
-* Tailwind CSS ou Shadcn/UI
-* Chart.js ou Recharts
+* Tailwind CSS
+* Chart.js
 
 ### Backend
 
 * Node.js + Express
-* MongoDB (via Mongoose) ou PostgreSQL
+* MongoDB (via Mongoose)
 * JWT pour l'authentification
 
 ---
