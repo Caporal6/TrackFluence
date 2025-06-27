@@ -50,7 +50,7 @@ Par défaut, le frontend tourne sur `http://localhost:3000`
 
 ### Frontend
 
-* React (ou Next.js)
+* React
 * Tailwind CSS ou Shadcn/UI
 * Chart.js ou Recharts
 
